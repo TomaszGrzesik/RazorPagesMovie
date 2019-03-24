@@ -28,3 +28,8 @@
 /home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/RazorPagesMovie.dll
 /home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/RazorPagesMovie.pdb
 /home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/RazorPagesMovie.csproj.CopyComplete
+/home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/Razor/Pages/Movies/Create.g.cshtml.cs
+/home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/Razor/Pages/Movies/Delete.g.cshtml.cs
+/home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/Razor/Pages/Movies/Details.g.cshtml.cs
+/home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/Razor/Pages/Movies/Edit.g.cshtml.cs
+/home/wrekkler/aspnetcoreapp/RazorPagesMovie/obj/Debug/netcoreapp2.2/Razor/Pages/Movies/Index.g.cshtml.cs
