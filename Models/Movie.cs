@@ -19,5 +19,6 @@ namespace RazorPagesMovie.Models
         //data annotation enables EF Core to correctly map Price to currency in DB
         [Column(TypeName = "decimal(18, 2)")]
         public Decimal Price { get; set; }
+        public string Rating { get; set; }
     }
 }
