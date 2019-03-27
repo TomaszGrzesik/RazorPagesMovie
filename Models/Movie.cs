@@ -19,8 +19,10 @@ namespace RazorPagesMovie.Models
 
         //Display attribute specifies what to display for the name of a field
         //in this case "Release Date" instead of "ReleaseDate"
+        //Dsiplay format set as year-month-day: yyyy-mm-dd
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime ReleaseDate { get; set; }
 
         //RegularExpression limits the characters that user can enter
