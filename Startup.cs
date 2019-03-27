@@ -17,6 +17,7 @@ namespace RazorPagesMovie
 {
     public class Startup
     {
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -53,7 +54,9 @@ namespace RazorPagesMovie
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            
+            //Adding culture for using diffrent currency and coma as a separator 
+            app.UseRequestLocalization("pl-PL", "en-PL", "en-GB", "fr-FR");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
